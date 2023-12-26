@@ -45,7 +45,7 @@ app.put("/checkemail", async (req, res) => {
 
   const html = `We received your request to change your account password.<br/>
 
-  To reset your password please <a href='https://password-rest-zo33.onrender.com/createpass/${resetToken}'>click here</a><br/>
+  To reset your password please <a href='https://main--marvelous-marshmallow-bc31f5.netlify.app/createpass/${resetToken}'>click here</a><br/>
   
   If you did not make this request and are concerned about the security of your account, Kindly ignore this mail.
   <br/>
